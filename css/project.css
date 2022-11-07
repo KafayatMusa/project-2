@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .background{
     background-image: url(../img/bg-tablet-pattern.svg);
@@ -63,8 +64,9 @@ h1{
     margin-bottom: 20px;
 }
 .h1-row p{
-    color: rgb(123, 121, 121);
-    padding-top: 30px;
+    color: rgb(151, 151, 151);
+    padding:45px 20px;
+    font-size: 15px;
     
 }
 .img-col{
@@ -73,6 +75,8 @@ h1{
 }
 .what{
     margin-top: 60px;
+    padding: 0;
+    margin: 0;
 }
 .what h2{
     display: flex;
@@ -266,27 +270,26 @@ gap: 40px;
         flex-direction: column;
     }
     .h1-row{
-        flex-direction: column;
-    }
-    .what h2{
-       flex-direction: column;
+        flex-direction: column-reverse;
+        padding: 0;
+      
     }
     .h1-row h1{
         text-align: center;
-        margin: 0;
+        padding: 0px;
+       
     }
     .h1-row p{
         text-align: center;
+        font-size: 17px;
     }
     .get-started2{
         margin-left: 150px;
+        margin-top: 240px;
     }
-    .what h2{
-        font-weight: bold;
-        margin-left: 10px;
-        font-size: 35px;
-        text-align: center;
-    }
+   .what h2{
+    padding-top: 120px;
+   }
     /* .h2-row{
         flex-direction: column;
     } */
@@ -298,7 +301,7 @@ gap: 40px;
      flex-direction: column;
         margin: 0px;
         
-    } */
+    
     .p-col h3 {
         font-weight: bold;
         margin-left: 0px;
@@ -308,11 +311,27 @@ gap: 40px;
     /* .p-col p{
         padding: 30px;
     } */
+    .p-col p{
+        margin: 10px;
+        padding-top:30px;
+    }
+    .p-col h3 {
+        font-weight: bold;
+        /* margin-left: 30px; */
+        font-size: 18px;
+        background-color: #fce9e7f5;
+        /* border-radius: 20px 0 0 20px; */
+        padding: 5px 20px;
+        margin: 0 0 0 -10px;
+    }
+    .p-col{
+        margin: 20px 8px;
+    }
     .what p{
-        text-align: center;
-        margin-left: 0px;
-        color: rgb(123, 121, 121);
-        padding-top: 30px;
+        padding-left: 0;
+        padding-top: 0px;
+        text-align: left; 
+        padding-bottom: 20px; 
       }
       .h1-row h1{
         line-height: 1.1;
@@ -320,8 +339,10 @@ gap: 40px;
         /* margin-left: 0px; */
         flex-direction: column-reverse;
     }
-    .img-col img{
+    .img-col{
         padding-left: 0px;
+    }
+    .img-col img{
         padding-top: 25px;
         width: 100%;
         /* flex-direction: column-reverse; */

@@ -9,13 +9,15 @@ nav{
     display: flex;
     justify-content: space-between;
     background-color: white;
-    padding:0 20px;
+    padding:0 30px;
+ 
 }
 label a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: azure;
     font-size: 25px;
     padding: 10px;
+   
 }
 .navLinks{
   flex: 1;
@@ -38,16 +40,19 @@ label a{
     width: 100%;
     height: 100vh;
   }
+  .mobileLinks ul{
+    padding-top: 50px;
+  }
   .mobileLinks ul li{
       list-style: none;
-      padding:20px;
+      padding:30px;
       display:block;
       justify-content: space-around;
   }
   .mobileLinks ul li a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: azure;
-    font-size: 20px;
+    color: black;
+    font-size: 30px;
   }
 nav .fa{
     display: none;
@@ -59,13 +64,15 @@ nav .fa{
 
 @media(max-width:958px){
     nav .fa{
-        font-size: 25px;
+        font-size: 28px;
         color: black;
         display: block;
         text-align: right;
+        /* box-shadow: none; */
     }
     nav{
         display: block;
+        padding: 0;
     }
     .navLinks{
         display: none;
